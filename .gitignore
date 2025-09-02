@@ -1,0 +1,58 @@
+# ------------------------
+# Python
+# ------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+.venv/
+env/
+venv/
+*.egg-info/
+.eggs/
+
+# ------------------------
+# Virtual environments
+# ------------------------
+.Python
+.python-version
+
+# ------------------------
+# VSCode / IDEs
+# ------------------------
+.vscode/
+.idea/
+*.swp
+
+# ------------------------
+# Terraform
+# ------------------------
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# ------------------------
+# Kubernetes
+# ------------------------
+# (por si generas yamls temporales con kustomize)
+k8s/overlays/**/.kustomize-build*
+
+# ------------------------
+# Logs / OS
+# ------------------------
+*.log
+.DS_Store
+Thumbs.db
+
+# ------------------------
+# Docker
+# ------------------------
+*.tar
+*.bak
