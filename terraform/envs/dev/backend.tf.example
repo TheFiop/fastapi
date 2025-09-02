@@ -1,0 +1,9 @@
+terraform {
+backend "s3" {
+bucket = "<tu-s3-estado>"
+key = "ci-cd-demo/dev/terraform.tfstate"
+region = "eu-west-1"
+dynamodb_table = "<opcional-lock>"
+encrypt = true
+}
+}
